@@ -1,5 +1,9 @@
+import sys
+from .slots.slots import MAB
+
 # Assuming pytest
-from slots.slots import MAB
+sys.path.append('/root/slots')
+
 
 # Most basic test of defaults
 def test_mab():
